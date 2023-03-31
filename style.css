@@ -199,11 +199,12 @@ footer{
 }
 
 .yangs{
-	cursor: pointer;
+  cursor: pointer;
 	transition: all .5s ease;
+  
 }
 .yangs1:hover, .yangs2:hover, .yangs3:hover{
-	transform: scale(1.5,1.5);
+	transform: scale(2.0,2.0);
 }
 .yangs{
   display: flex;
