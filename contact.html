@@ -7,57 +7,61 @@
     <meta name="keywords" content="nephilim, Diablo 3, rift, greater rift, wizard, demon hunter, barbarian, monk, witch doctor, crusader, necromancer">
     <meta name="author" content="DJ Saighman">
     <title>Nephilim Compendium</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images\logo.png" />
     <link rel="stylesheet" href="style.css">
   </head>
 
   <body class="main_body">
-      <header>
-         <div class="header" id="header">
-            <h1>Nephilim Compendium</h1>
-            <div class="header-right">
-               <a class="active" href="contact.html">Contact</a>
-               <a href="l_r_g.html" class="equipment">Equipment</a>
-               <a href="#activities">Activities</a>
-               <a href="Classes_and_Builds.html">Classes and Builds</a>
-               <a href="index.html">Home</a>
-            </div>
-         </div>
+    <header>
+      <div class="header" id="header">
+        <h1>Nephilim Compendium</h1>
+          <div class="header-right">
+            <a class="active" href="contact.html">Contact</a>
+            <a href="l_r_g.html" class="equipment">Equipment</a>
+            <a href="#activities">Activities</a>
+            <a href="Classes_and_Builds.html">Classes and Builds</a>
+            <a href="index.html">Home</a>
+          </div>
+        </div>
       </header>
       <div class="main_body">
-         <div class="ccontent"><br><br><br><br><br>
-            <h2>Contact me with questions or comments about Diablo 3</h2><br><br>
-               <p>I welcome any comments, concerns or questions about Diablo 3. I will help with build information, leveling, or progression. Please submit this form and I will get back to you as soon as I can!</p>
-         <div class="cform">
-            <form method="post" action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
-               <div class="identify">
-                  <fieldset class="name">
-                     <label for="first-name" class="name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required></label><br>
-               <hr><br>
-                     <label for="last-name" class="name">Enter Your Gamer Tag: <input id="last-name" name="last-name" type="text" required></label>
-               <br><br>
-                     <label for="email" class="name">Enter Your Email: <input id="email" name="email" type="email" required></label><br><br>
+        <div class="ccontent"><br><br><br><br><br>
+          <h2>Contact me with questions or comments about Diablo 3</h2><br><br>
+            <p>I welcome any comments, concerns or questions about Diablo 3. I will help with build information, leveling, or progression. Please submit this form and I will get back to you as soon as I can!</p>
+        
+            <br><br>
+
+        <div class="cform">
+          <form method="post" action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
+            <div class="identify">
+              <fieldset class="name">
+                <label for="first-name" class="name">Enter Your Name: <input id="first-name" name="first-name" type="text" required></label><br>
+              <hr><br>
+                <label for="last-name" class="name">Enter Your Gamer Tag: <input id="gamertag" name="gamertag" type="text" required></label>
+              <br><br>
+                <label for="email" class="name">Enter Your Email: <input id="email" name="email" type="email" required></label><br><br>
+              </fieldset>
+            </div>
+
+            <br><br>
+
+            <div class="platform">
+              <p>What platform is this for?</p><br>
+                  <fieldset>
+                    <label for="xbox" ><input id="xbox" type="radio" name="platform" class="inline"> Xbox |</label>
+                    <label for="playstation" ><input id="playstation" type="radio" name="platform" class="inline"> Playstation |</label>
+                    <label for="pc" ><input id="pc" type="radio" name="platform" class="inline"> PC |</label>
+                    <label for="switch" ><input id="swtich" type="radio" name="platform" class="inline"> Switch</label>
                   </fieldset>
-               </div>
-
-               <br><br>
-
-               <div class="platform">
-                  <p>What platform is this for?</p><br>
-                     <fieldset>
-                        <label for="platform" ><input id="xbox" type="radio" name="xbox" class="inline"> Xbox</label>
-                        <label for="platform" ><input id="playstation" type="radio" name="playstation" class="inline"> Playstation</label>
-                        <label for="platform" ><input id="pc" type="radio" name="PC" class="inline"> PC</label>
-                        <label for="platform" ><input id="swtich" type="radio" name="Switch" class="inline"> Switch</label>
-                     </fieldset>
-               </div>
+            </div>
 
             <br><br>
             
             <div class="upload">
-               <fieldset>
-                  <p>You can upload files that are related to Diablo 3. If you are having problems with a task, upload a clip of the issue to help find a solution!</p><br>
-                  <label for="upload">Upload a file: <input id="upload" type="file" name="file"></label>
-               </fieldset>
+              <fieldset>
+                <p>You can upload files that are related to Diablo 3. If you are having problems with a task, upload a clip of the issue to help find a solution!</p><br>
+                <label for="upload">Upload a file: <input id="upload" type="file" name="file"></label>
+              </fieldset>
             </div>
             
             <br><br>
@@ -67,22 +71,28 @@
                 <label for="mode" class="gameMode">What do you need help with?
                   <select id="mode" name="mode">
                     <option value="">(select one)</option>
-                    <option value="1">Non-seasonal</option>
-                    <option value="2">Seasonal</option>
-                    <option value="2">Weekly Challenge Rift</option>
-                    <option value="4">Other</option>
+                    <option value="Non-seasonal">Non-seasonal</option>
+                    <option value="Seasonal">Seasonal</option>
+                    <option value="Challenge rift">Weekly Challenge Rift</option>
+                    <option value="Other">Other</option>
                   </select>
                 </label>
               </fieldset>
             </div>
+            
             <br><br>
+            
             <div class="request">
-            <fieldset>
+              <fieldset>
                 <label for="info" class="request">Provide a brief description of your request <br>
-                <textarea id="info" name="request" rows="3" cols="30" placeholder="I need help getting gear or leveling up..."></textarea>
-              </label>
+                  <textarea id="info" name="request" rows="3" cols="30" placeholder="I need help getting gear or leveling up..."></textarea>
+                </label>
               </fieldset>
-              <div class="subres">
+            </div>
+            
+            <br><br>
+            
+            <div class="subres">
                 <label for="terms-and-conditions" class="clabel">
                   <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline"> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
                 </label><br><br>
