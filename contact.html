@@ -1,61 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="nephilim, Diablo 3, rift, greater rift, wizard, demon hunter, barbarian, monk, witch doctor, crusader, necromancer">
+    <meta name="author" content="DJ Saighman">
+    <title>Nephilim Compendium</title>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-<html>
-   <body class="cbody">
-      <div class="ccontent"><br><br><br><br><br>
-        <h2>Contact me with questions or comments about Diablo 3</h2><br>
-        <p>I welcome any comments, concerns or questions about Diablo 3. I will help with build information, leveling, or progression. Please submit this form and I will get back to you as soon as I can!</p>
-        <div class="cform">
-          <form method="post" action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
-            <fieldset class="name">
-              <label for="first-name" class="name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required></label><br><br>
-              <label for="last-name" class="name">Enter Your Gamer Tag: <input id="last-name" name="last-name" type="text" required></label><br><br>
-              <label for="email" class="name">Enter Your Email: <input id="email" name="email" type="email" required></label>
-            </fieldset> 
-            <div class="radio">
-              <p>What platform is this for?</p>
-          <fieldset class="fieldset">
-            <label for="platform" class="platform"><input id="platform" type="radio" name="xbox" class="inline"> Xbox</label>
-            <label for="platform" class="platform"><input id="platform" type="radio" name="playstation" class="inline"> Playstation</label>
-            <label for="platform" class="platform"><input id="platform" type="radio" name="PC" class="inline"> PC</label>
-            <label for="platform" class="platform"><input id="platform" type="radio" name="Switch" class="inline"> Switch</label>
+  </head>
+
+  <body class="main_body">
+      <header>
+         <div class="header" id="header">
+            <h1>Nephilim Compendium</h1>
+            <div class="header-right">
+               <a class="active" href="contact.html">Contact</a>
+               <a href="l_r_g.html" class="equipment">Equipment</a>
+               <a href="#activities">Activities</a>
+               <a href="Classes_and_Builds.html">Classes and Builds</a>
+               <a href="index.html">Home</a>
+            </div>
+         </div>
+      </header>
+      <div class="main_body">
+         <div class="ccontent"><br><br><br><br><br>
+            <h2>Contact me with questions or comments about Diablo 3</h2><br><br>
+               <p>I welcome any comments, concerns or questions about Diablo 3. I will help with build information, leveling, or progression. Please submit this form and I will get back to you as soon as I can!</p>
+         <div class="cform">
+            <form method="post" action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
+               <div class="identify">
+                  <fieldset class="name">
+                     <label for="first-name" class="name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required></label><br>
+               <hr><br>
+                     <label for="last-name" class="name">Enter Your Gamer Tag: <input id="last-name" name="last-name" type="text" required></label>
+               <br><br>
+                     <label for="email" class="name">Enter Your Email: <input id="email" name="email" type="email" required></label><br><br>
+                  </fieldset>
+               </div>
+
+               <br><br>
+
+               <div class="platform">
+                  <p>What platform is this for?</p><br>
+                     <fieldset>
+                        <label for="platform" ><input id="xbox" type="radio" name="xbox" class="inline"> Xbox</label>
+                        <label for="platform" ><input id="playstation" type="radio" name="playstation" class="inline"> Playstation</label>
+                        <label for="platform" ><input id="pc" type="radio" name="PC" class="inline"> PC</label>
+                        <label for="platform" ><input id="swtich" type="radio" name="Switch" class="inline"> Switch</label>
+                     </fieldset>
+               </div>
+
             <br><br>
-         </fieldset>
+            
+            <div class="upload">
+               <fieldset>
+                  <p>You can upload files that are related to Diablo 3. If you are having problems with a task, upload a clip of the issue to help find a solution!</p><br>
+                  <label for="upload">Upload a file: <input id="upload" type="file" name="file"></label>
+               </fieldset>
+            </div>
+            
+            <br><br>
+            
+            <div class="request">
+              <fieldset>
+                <label for="mode" class="gameMode">What do you need help with?
+                  <select id="mode" name="mode">
+                    <option value="">(select one)</option>
+                    <option value="1">Non-seasonal</option>
+                    <option value="2">Seasonal</option>
+                    <option value="2">Weekly Challenge Rift</option>
+                    <option value="4">Other</option>
+                  </select>
+                </label>
+              </fieldset>
+            </div>
+            <br><br>
+            <div class="request">
+            <fieldset>
+                <label for="info" class="request">Provide a brief description of your request <br>
+                <textarea id="info" name="request" rows="3" cols="30" placeholder="I need help getting gear or leveling up..."></textarea>
+              </label>
+              </fieldset>
+              <div class="subres">
+                <label for="terms-and-conditions" class="clabel">
+                  <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline"> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+                </label><br><br>
+                <input type="submit" value="Submit" class="input">
+                <input type="reset" value="Reset" class="input">
+              </div>
+            </div>
+        </div>
+        </form>
       </div>
-      <div class="upload">
-         <fieldset class="fieldset">
-            <label for="upload">Upload a file: <input id="upload" type="file" name="file"></label><br><br>
-         <label for="referrer" class="referer">What do you need help with?
-            <select id="mode" name="mode">
-               <option value="">(select one)</option>
-               <option value="1">Non-seasonal</option>
-               <option value="2">Seasonal</option>
-               <option value="2">Weekly Challenge Rift</option>
-               <option value="4">Other</option>
-            </select>
-         </label><br><br>
-         <label for="info" class="request">Provide a brief description of your request <br>
-            <textarea id="info" name="request" rows="3" cols="30" placeholder="I need help getting gear or leveling up..."></textarea>
-         </label>
-         </fieldset>
-         <div class="subres">
-            <label for="terms-and-conditions" class="clabel">
-               <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline"> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
-            </label><br><br>
-            <input type="submit" value="Submit" class="input">
-            <input type="reset" value="Reset" class="input">
-         </div>
-         </div>
-         </form>
-      </div>
-      
-   </div>
-   </body>
-  
+
+    </div>
+    <footer>
+      <p><i>Raven Beak Web Development | 2023 | DJ Saighman / ImpGHOST</i></p>
+
+      <p>WEBSITE DISCLAIMER</p><br>
+    
+    The information provided by Raven's Beak Development ("we," "us," or "our") on nephilim_repository.com (the "Site") is for general informational purposes only. All information on the Site is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the Site. UNDER NO CIRCUMSTANCE SHALL WE HAVE ANY LIABILITY TO YOU FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF THE SITE OR RELIANCE ON ANY INFORMATION PROVIDED ON THE SITE. YOUR USE OF THE SITE AND YOUR RELIANCE ON ANY INFORMATION ON THE SITE IS SOLELY AT YOUR OWN RISK.<br><br>
+    
+    EXTERNAL LINKS DISCLAIMER<br>
+    
+    The Site may contain (or you may be sent through the Site) links to other websites or content belonging to or originating from third parties or links to websites and features in banners or other advertising. Such external links are not investigated, monitored, or checked for accuracy, adequacy, validity, reliability, availability, or completeness by us. WE DO NOT WARRANT, ENDORSE, GUARANTEE, OR ASSUME RESPONSIBILITY FOR THE ACCURACY OR RELIABILITY OF ANY INFORMATION OFFERED BY THIRD-PARTY WEBSITES LINKED THROUGH THE SITE OR ANY WEBSITE OR FEATURE LINKED IN ANY BANNER OR OTHER ADVERTISING. WE WILL NOT BE A PARTY TO OR IN ANY WAY BE RESPONSIBLE FOR MONITORING ANY TRANSACTION BETWEEN YOU AND THIRD-PARTY PROVIDERS OF PRODUCTS OR SERVICES.<br><br>
+    
+    AFFILIATES DISCLAIMER<br>
+    
+    The Site may contain links to affiliate websites, and we receive an affiliate commission for any purchases made by you on the affiliate website using such links. Our affiliates include the following:
+    <p><a href="https://www.blizzard.com">Blizzard Entertainment</a></p>
+    <p><a href="https://us.diablo3.blizzard.com">Diablo 3 Home</a></p>
+    <p><a href="https://maxroll.gg/d3/category/guides">Maxroll - Diablo 3 guides</a></p>
+    <p><a href="https://www.icy-veins.com/d3">Icy Veins - D3 Guides</a></p>
+  </footer>
+    </div>  
+    <script src="script_diablo.js"></script>
+  </body>
+
 </html>

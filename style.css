@@ -20,6 +20,7 @@
   }
 
    
+
   .header a.logo {
     font-size: 25px;
     font-weight: bold;
@@ -131,6 +132,7 @@ li{
 footer{
     font-size: 10px;
     color: #a0a0a0;
+    padding: 35px 35px 35px 35px; 
 }
 
 /* Main */
@@ -140,7 +142,7 @@ footer{
   color: #a0a0a0;
   width: auto;
   height: auto;
-  
+  padding: 0px 35px 35px 35px; 
 }
 
 .img_main{
@@ -157,7 +159,7 @@ footer{
 }
 
 .main_body{
-    padding: 0px 35px 0px 35px; 
+    
 }
 
 
@@ -299,3 +301,25 @@ th{
 .part{
   text-align: center;
 } 
+
+/* CONTACT PAGE */
+
+.cform{
+  text-align: center;
+  border: 1px solid #660000;
+  width: 900px;
+  margin: auto;
+  padding: 15px;
+}
+
+.upload, .identify, .platform{
+  border-top: 1px solid #660000;
+  border-bottom: 1px solid #660000;
+  border-collapse: collapse;
+  padding: 10px;
+  
+}
+
+.platform{
+  
+}
